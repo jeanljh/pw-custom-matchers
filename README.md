@@ -1,5 +1,7 @@
 # pw-custom-matchers
 
+[![test](https://github.com/jeanljh/pw-custom-matchers/actions/workflows/test.yml/badge.svg)](https://github.com/jeanljh/pw-custom-matchers/actions/workflows/test.yml)
+
 Example of Playwright custom matchers by extending Playwright assertions.
 
 CI integration with GitHub Actions and GitHub Pages to publish the generated HTML reporter.
