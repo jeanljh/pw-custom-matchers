@@ -6,7 +6,7 @@
   "scripts": {
     "test": "playwright test",
     "report": "playwright show-report",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
   },
   "keywords": [
     "playwright",
