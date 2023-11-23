@@ -2,9 +2,9 @@ import { expect as baseExpect, Response } from '@playwright/test'
 export { test } from '@playwright/test'
 
 export const expect = baseExpect.extend({
-  toContainValue(receive: any[], value: any) {
-    const pass = receive.includes(value)
-    const message = pass ? 'passed' : `expected ${receive} to contain ${value}`
+  toBeOneOfValues(receive: any, values: any[]) {
+    const pass = values.includes(receive)
+    const message = pass ? 'passed' : `expected ${receive} to be one of ${values}`
     return { pass, message: () => message }
   },
   toEachHaveValue(receive: any[], value: any) {
