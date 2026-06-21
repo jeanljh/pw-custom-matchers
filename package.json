@@ -22,5 +22,8 @@
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.3.5",
     "prettier": "^3.8.3"
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "prettier": "^3.8.3"
   }
 }
